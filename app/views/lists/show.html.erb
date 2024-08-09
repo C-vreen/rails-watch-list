@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="title">
+    <h1><%= @list.name %></h1>
+  </div>
+  <p><%= link_to 'Back to the lists', lists_path %></p>
+  <p><%= link_to 'Add a bookmark', new_list_bookmark_path(@list)%></p>
+</div>
